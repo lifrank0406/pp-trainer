@@ -8,12 +8,17 @@
 var piano = Synth.createInstrument('piano');
 Synth.generate('piano', 'C', 4, 20);
 Synth.play('piano', 'C', 4, 20);
-piano.play('C', 4, 20);	
+piano.play('C', 4, 20);
+
+document.getElementById("demo").innerHTML = 5 + 6;
 	
 Synth.debug();
 </script>
 
 <h1>Pitch trainer!</h1>
 <h2>With instance???</h2>
+	
+<p id="demo"></p>
+	
 <button id = "Synth.play('piano', 'C', 4, 20);"> play a C? </button>
 </body>
